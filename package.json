@@ -9,12 +9,12 @@
 		"vscode": "^1.45.0"
 	},
     "bugs": {
-        "url": "https://github.com/xon-lang/vsce/issues"
+        "url": "https://github.com/nizami-dev/update-python-packages-and-requirements.txt/issues"
     },
-    "homepage": "https://github.com/xon-lang/vsce#readme",
+    "homepage": "https://github.com/nizami-dev/update-python-packages-and-requirements.txt#readme",
     "repository": {
         "type": "git",
-        "url": "https://github.com/xon-lang/vsce.git"
+        "url": "https://github.com/nizami-dev/update-python-packages-and-requirements.txt.git"
     },
 	"categories": [
 		"Other"
