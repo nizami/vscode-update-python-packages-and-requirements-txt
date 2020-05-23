@@ -2,20 +2,20 @@
 	"name": "update-python-packages-and-requirements-txt",
 	"displayName": "Update python packages and requirements.txt",
 	"description": "Update python packages and requirements.txt",
-    "publisher": "nizami",
-    "license": "MIT",
-	"version": "1.0.0",
+	"publisher": "nizami",
+	"license": "MIT",
+	"version": "1.1.0",
 	"engines": {
 		"vscode": "^1.45.0"
 	},
-    "bugs": {
-        "url": "https://github.com/nizami-dev/update-python-packages-and-requirements.txt/issues"
-    },
-    "homepage": "https://github.com/nizami-dev/update-python-packages-and-requirements.txt#readme",
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/nizami-dev/update-python-packages-and-requirements.txt.git"
-    },
+	"bugs": {
+		"url": "https://github.com/nizami-dev/update-python-packages-and-requirements.txt/issues"
+	},
+	"homepage": "https://github.com/nizami-dev/update-python-packages-and-requirements.txt#readme",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/nizami-dev/update-python-packages-and-requirements.txt.git"
+	},
 	"categories": [
 		"Other"
 	],
