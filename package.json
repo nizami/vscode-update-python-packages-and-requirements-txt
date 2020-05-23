@@ -2,10 +2,20 @@
 	"name": "update-python-packages-and-requirements-txt",
 	"displayName": "Update python packages and requirements.txt",
 	"description": "Update python packages and requirements.txt",
-	"version": "0.0.1",
+    "publisher": "nizami",
+    "license": "MIT",
+	"version": "1.0.0",
 	"engines": {
 		"vscode": "^1.45.0"
 	},
+    "bugs": {
+        "url": "https://github.com/xon-lang/vsce/issues"
+    },
+    "homepage": "https://github.com/xon-lang/vsce#readme",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/xon-lang/vsce.git"
+    },
 	"categories": [
 		"Other"
 	],
