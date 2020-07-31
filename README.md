@@ -1,3 +1,5 @@
+[![](https://vsmarketplacebadge.apphb.com/version/nizami.update-python-packages-and-requirements-txt.svg)](https://github.com/nizami/update-python-packages-and-requirements.txt)
+
 # Update python packages and requirements.txt
 
 This extension just up to date all your python packages and requirements.txt file by calling only command in current terminal or selected if many are opened.
