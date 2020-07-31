@@ -1,4 +1,4 @@
-[![](https://vsmarketplacebadge.apphb.com/version/nizami.update-python-packages-and-requirements-txt.svg)](https://github.com/nizami/update-python-packages-and-requirements.txt)
+[![](https://vsmarketplacebadge.apphb.com/version/nizami.update-python-packages-and-requirements-txt.svg)](https://marketplace.visualstudio.com/items?itemName=nizami.update-python-packages-and-requirements-txt)
 
 # Update python packages and requirements.txt
 
