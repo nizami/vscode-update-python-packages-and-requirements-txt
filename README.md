@@ -11,4 +11,4 @@ for i in $(pip list -o | awk 'NR > 2 {print $1}'); do pip install -U $i; done &&
 
 ---
 
-Icon made by srip from [Flaticon](https://www.flaticon.com/)
+Icon made by `Freepik` from [Flaticon](https://www.flaticon.com/)
