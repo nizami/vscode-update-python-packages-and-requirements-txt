@@ -9,12 +9,12 @@
     "vscode": "^1.53.0"
   },
   "bugs": {
-    "url": "https://github.com/nizami-dev/update-python-packages-and-requirements.txt/issues"
+    "url": "https://github.com/nizami/vscode-update-python-packages-and-requirements-txt/issues"
   },
-  "homepage": "https://github.com/nizami-dev/update-python-packages-and-requirements.txt#readme",
+  "homepage": "https://github.com/nizami/vscode-update-python-packages-and-requirements-txt#readme",
   "repository": {
     "type": "git",
-    "url": "https://github.com/nizami-dev/update-python-packages-and-requirements.txt.git"
+    "url": "https://github.com/nizami/vscode-update-python-packages-and-requirements-txt.git"
   },
   "icon": "icon.png",
   "categories": [
