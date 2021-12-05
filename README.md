@@ -5,7 +5,7 @@
 
 This extension just up to date all your python packages and requirements.txt file by calling only command in a new terminal or an existing one.
 
-Press <kbd>`cmd+shift+p`</kbd> in mac or <kbd>`ctrl+shift+p`</kbd> in windows or linux and start typing `update python ...`
+Press <kbd>cmd+shift+p</kbd> in mac or <kbd>ctrl+shift+p</kbd> in windows or linux and start typing `update python ...`
 
 ![screenshot](https://raw.githubusercontent.com/nizami/vscode-update-python-packages-and-requirements-txt/main/screenshot.png)
 
