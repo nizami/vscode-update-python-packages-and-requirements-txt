@@ -2,23 +2,28 @@ import * as fs from 'fs';
 import * as vscode from 'vscode';
 
 export function activate(context: vscode.ExtensionContext) {
-  let disposable = vscode.commands.registerCommand(
-    'update-python-packages-and-requirements-txt',
+  const updateScript = fs.readFileSync(__dirname + '/../update.sh').toString();
+  const disposable1 = vscode.commands.registerCommand(
+    'update-python-packages-and-requirements-txt-with-an-existing-terminal',
     () => {
-      const updateScript = fs
-        .readFileSync(__dirname + '/../update.sh')
-        .toString();
-      if (ensureTerminalExists()) {
+      if (ensureTerminalExists())
         selectTerminal().then((terminal) => {
-          if (terminal) {
-            terminal.sendText(updateScript);
-          }
+          terminal.show();
+          terminal.sendText(updateScript);
         });
-      }
     }
   );
 
-  context.subscriptions.push(disposable);
+  const disposable2 = vscode.commands.registerCommand(
+    'update-python-packages-and-requirements-txt-with-a-new-terminal',
+    () => {
+      const terminal = vscode.window.createTerminal('pip');
+      terminal.show();
+      terminal.sendText(updateScript);
+    }
+  );
+
+  context.subscriptions.push(disposable1, disposable2);
 }
 
 export function deactivate() {}
